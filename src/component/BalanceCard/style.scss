@@ -1,0 +1,21 @@
+.balanceCard {
+  cursor: pointer;
+  padding: 24px;
+  background-color: white;
+  border: 1px solid #e3e3e3;
+  max-width: 384px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  .cardName {
+    color: #516778;
+  }
+  .cardSum {
+    color: #000;
+    margin-top: 10px;
+    font-size: 32px;
+  }
+  .balanceSumCard {
+    color: rgba(21, 94, 239, 1);
+  }
+}

@@ -1,0 +1,36 @@
+@import "./component/Navbar/style.scss";
+@import "./component/BalanceCard/style.scss";
+@import "./component/FasterCard/style.scss";
+@import "./component/SideBarChart/style.scss";
+@import "./component/ExpenseHistory/style.scss";
+@import "./component/MonthlyChart/style.scss";
+
+@import "./pages/HomePage/style.scss";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mt-32 {
+  margin-top: 32px;
+}

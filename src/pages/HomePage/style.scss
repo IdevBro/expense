@@ -1,0 +1,53 @@
+.userName {
+  font-size: 32px;
+}
+.filterDate {
+  display: flex;
+  border: 1px solid #eceff2;
+  border-radius: 12px;
+  overflow: hidden;
+
+  p {
+    padding: 10px 16px;
+    border-right: 1px solid #eceff2;
+    cursor: pointer;
+    color: #516778;
+    font-size: 16px;
+
+    &:nth-child(3) {
+      border-right: none;
+    }
+    &:nth-child(1) {
+      color: #155eef;
+      background-color: #daebff;
+    }
+  }
+}
+.cardScrollContainer {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  gap: 10px;
+
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
+.row_align {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  gap: 24px;
+}

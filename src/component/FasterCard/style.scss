@@ -1,0 +1,30 @@
+.fasterCard {
+  width: 280px;
+  min-width: 280px;
+  border: 1px solid rgba(236, 239, 242, 1);
+  padding: 24px;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  .name {
+    color: rgba(51, 62, 71, 1);
+    font-size: 24px;
+  }
+  .sum {
+    font-size: 16px;
+    color: rgba(48, 117, 255, 1);
+    margin-top: 10px;
+  }
+  .addBtn {
+    background-color: rgba(48, 117, 255, 1);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+  }
+}
